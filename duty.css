@@ -34,3 +34,30 @@ body{
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
+
+.btn{
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: grey;
+    color: white;
+}
+
+.btn:active{
+    background-color:dimgrey;
+}
+
+.btn_text{
+    color: white;
+}
+
+.active_btn{
+    background-color:dimgrey;
+}
