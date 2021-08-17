@@ -21,7 +21,10 @@
 }
 
 body{
-    background-color: grey;
+    background-image: url(../image/background.jpg);
+    background-repeat: repeat;
+    height: 100%;
+    width: 100%;
 }
 
 
