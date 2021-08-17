@@ -1,14 +1,14 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>DutyForm</title>
+        <title>Off_Duty_Form</title>
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="duty.css">
+        <link rel="stylesheet" type="text/css" href="CSS/duty.css">
     </head>
 
     <body>
@@ -33,11 +33,29 @@
 
         <hr class="upper">
 
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
-                    <a class="btn_text" href="duty.html"><button type="button" class="btn btn-default">On Duty</button></a>
-                    <a class="btn_text" href="off_duty.html"><button type="button" class="btn btn-default active_btn">Off Duty</button></a>
+        <div class="parent">
+            <div id="particles-js" class="off_duty_particles">
+                <script type="text/javascript" src="JS/particles.js"></script>
+                <script type="text/javascript" src="JS/app.js"></script>
+                <div id="content">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12 text-center">
+                                <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+                                    <a class="btn_text" href="duty.html"><button type="button" class="btn btn-default">On Duty</button></a>
+                                    <a class="btn_text" href="off_duty.html"><button type="button" class="btn btn-default active_btn">Off Duty</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-fluid form_container">
+                        <div class="row row_container">
+                            <div class="col-sm-12 text-center">
+                                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScfwPMvnv32SJt_A88fsXQyy6pg__0EuKZzzbk-Gx9f0xLj2g/viewform?embedded=true" width="640" height="609" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
