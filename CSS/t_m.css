@@ -10,8 +10,7 @@
 }
 
 body{
-    background-image: url(../image/background.jpg);
-    background-repeat: repeat;
+    background-color: grey;
 }
 
 .ds_name{
