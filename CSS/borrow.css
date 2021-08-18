@@ -31,7 +31,7 @@ body{
 .ds_name{
     color: rgb(255, 255, 255);
     margin: 10px 100px 0px 100px;
-    font-size: 70px;
+    font-size: 4vw;
     user-select: none;
 }
 
@@ -54,3 +54,39 @@ body{
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
+
+
+/* Form */
+
+.form_container{
+    margin: 25px 0px 0px 0px
+}
+
+iframe{
+    background-color: rgb(255, 255, 255,.3);
+    border-radius: 20px;
+    padding: 10px 0px 20px 0px ;
+    border: 2px solid white;
+    user-select: none;
+}
+
+.parent{
+    position: relative;
+}
+
+#content{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+#particles-js{
+    width: 100vw;
+    height: 85vh;
+}
+
+.off_duty_particles{
+    height: 80vh !important;
+}
+

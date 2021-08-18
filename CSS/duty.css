@@ -31,7 +31,7 @@ body{
 .ds_name{
     color: rgb(255, 255, 255);
     margin: 10px 100px 0px 100px;
-    font-size: 70px;
+    font-size: 4vw;
     user-select: none;
 }
 
@@ -117,3 +117,7 @@ iframe{
     height: 80vh !important;
 }
 
+iframe{
+    width: 35vw;
+    min-width: 400px !important;
+}
