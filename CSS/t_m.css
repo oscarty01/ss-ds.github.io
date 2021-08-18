@@ -56,9 +56,9 @@ body{
 .pdf{
     align-items: center;
     width: 70vw;
-    min-width: 400px !important;
+    min-width: 800px !important;
     height: 60vw;
-    min-height: 800px !important;
+    min-height: 900px !important;
     border: 5px solid white;
     margin: 20px;
 }

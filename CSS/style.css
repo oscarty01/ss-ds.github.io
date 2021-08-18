@@ -49,7 +49,9 @@ body{
     background-color: dimgray;
     position: fixed;
     bottom: 0;
+    height: 2vw;
 }
+
 
 .ds_name:active{
     animation: glowing 1s infinite alternate;
