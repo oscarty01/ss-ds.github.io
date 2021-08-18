@@ -55,8 +55,10 @@ body{
 
 .pdf{
     align-items: center;
-    width: 1300px;
-    height: 1300px;
+    width: 70vw;
+    min-width: 400px !important;
+    height: 60vw;
+    min-height: 800px !important;
     border: 5px solid white;
     margin: 20px;
 }

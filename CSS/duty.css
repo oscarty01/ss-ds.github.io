@@ -95,6 +95,8 @@ iframe{
     padding: 10px 0px 20px 0px ;
     border: 2px solid white;
     user-select: none;
+    width: 35vw;
+    min-width: 400px !important;
 }
 
 .parent{
@@ -115,9 +117,4 @@ iframe{
 
 .off_duty_particles{
     height: 80vh !important;
-}
-
-iframe{
-    width: 35vw;
-    min-width: 400px !important;
 }

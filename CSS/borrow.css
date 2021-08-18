@@ -68,6 +68,8 @@ iframe{
     padding: 10px 0px 20px 0px ;
     border: 2px solid white;
     user-select: none;
+    width: 35vw;
+    min-width: 400px !important;
 }
 
 .parent{

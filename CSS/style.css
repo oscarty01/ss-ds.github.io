@@ -67,7 +67,8 @@ body{
 }
 
 .ds_logo{
-    width: 100px;
+    width: 6vw;
+    min-width: 50px !important;
     margin: 10px 100px -5px 100px;
     user-select: none;
 }
@@ -132,6 +133,7 @@ body{
 
 .photo_slider{
     width: 60vw;
+    min-width: 380px !important;
 }
 
 .slide{
