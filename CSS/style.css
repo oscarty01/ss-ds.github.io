@@ -143,10 +143,11 @@ body{
     border: 5px solid white;
 }
 
+.carousel-item{
+    user-select: none;
+}
+
 .address{
     margin: 2px 0px 0px 0px;
 }
 
-.carousel-item{
-    user-select: none;
-}
