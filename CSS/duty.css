@@ -14,7 +14,9 @@
     100%{opacity: 100%;}
 }
 
-
+html{
+    overflow-x: hidden;
+}
 
 .upper{
     background-color: white;
@@ -112,7 +114,7 @@ iframe{
 
 #particles-js{
     width: 100vw;
-    height: 115vh;
+    height: 100vh;
 }
 
 .off_duty_particles{
