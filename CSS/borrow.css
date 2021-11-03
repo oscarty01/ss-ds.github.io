@@ -68,6 +68,7 @@ iframe{
     border: 2px solid white;
     user-select: none;
     width: 35vw;
+    min-height: 900px;
     min-width: 400px !important;
 }
 
