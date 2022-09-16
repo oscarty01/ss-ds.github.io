@@ -130,6 +130,7 @@
 .banner-title h1{
     font-size: 65px;
     margin-bottom: 30px;
+    user-select: none;
 }
 
 .banner-title h1 span{
@@ -206,10 +207,12 @@
     padding: 10px 20px;
     font-weight: bold;
     font-size: 15px;
+    user-select: none;
 }
 
 .credit small{
     font-size: 11px;
+    user-select: none;
 }
 
 .nav-bar .fa-solid{
@@ -228,6 +231,7 @@
     }
     .credit {
         width: 100%;
+        bottom: 0; !important
     }
     .credit h1, .credit small{
         font-size: 3.3vw;
