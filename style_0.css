@@ -231,7 +231,7 @@
     }
     .credit {
         width: 100%;
-        bottom: 0; !important
+        bottom: 0;
     }
     .credit h1, .credit small{
         font-size: 3.3vw;
