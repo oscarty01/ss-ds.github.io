@@ -1,0 +1,32 @@
+%!Adobe-FontList 1.22
+%Locale:0x804
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:BpmfGenRyuMin-B
+FamilyName:Bpmf GenRyu Min
+StyleName:B
+FullName:Bpmf GenRyu Min B
+MenuName:Bpmf GenRyu Min B
+StyleBits:0
+FamilyNameNative:ㄅ源流注音明體
+StyleNameNative:B
+FullNameNative:ㄅ源流注音明體 B
+WritingScript:TraditionalChinese
+OutlineFileName:C:\Users\oscar\Documents\VSC\HTML 5\DS New site\Media\Font\BpmfGenRyuMin-B.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:9008584
+FileModTime:1628040335
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Bpmf GenRyu Min B
+NameArray:2,Win,1,ㄅ源流注音明體 B
+NameArray:2,Win,16,ㄅ源流注音明體
+NameArray:0,Win,1,Bpmf GenRyu Min B
+NameArray:0,Win,16,Bpmf GenRyu Min
+%EndFont
+

@@ -1,0 +1,94 @@
+@keyframes glowing{
+    from{
+        text-shadow: 0 0 20px white;
+    }
+    to{
+        text-shadow: 0 0 30px white,
+                    0 0 10px white
+    }
+}
+
+@keyframes blink{
+    0%{opacity: 100%;}
+    50%{opacity: 20%;}
+    100%{opacity: 100%;}
+}
+
+
+.upper{
+    background-color: white;
+    width: 98%;
+}
+
+body{
+    background-image: url(../image/background.jpg);
+    background-repeat: repeat;
+    height: 100%;
+    width: 100%;
+}
+
+
+.ds_name{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: min(6vw, 75px);
+    user-select: none;
+    top: clamp(2.5px ,1vw, 0px) ;
+    left: 1vw;
+}
+
+.ds_name:active{
+    animation: glowing 1s infinite alternate;
+}
+
+
+.ds_logo{
+    width: min(10vw,100px);
+    user-select: none;
+    position: relative;
+}
+
+.ds_logo:hover{
+    animation-name: blink;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+/* Form */
+
+.form_container{
+    margin: 25px 0px 0px 0px
+}
+
+iframe{
+    background-color: rgb(255, 255, 255,.3);
+    border-radius: 20px;
+    padding: 10px 0px 20px 0px ;
+    border: 2px solid white;
+    user-select: none;
+    width: 35vw;
+    min-height: 900px;
+    min-width: 400px !important;
+}
+
+.parent{
+    position: relative;
+}
+
+#content{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+#particles-js{
+    width: 100vw;
+    height: 85vh;
+}
+
+.off_duty_particles{
+    height: 80vh !important;
+}
+
