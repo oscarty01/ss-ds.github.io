@@ -126,6 +126,12 @@
     font-weight: bold;
     font-size: 15px;
     cursor: pointer;
+    border-radius: 10px;
+}
+
+.banner-title .btn:hover{
+    background-color: #ddd; 
+    transition: 0.3s;
 }
 
 .banner-title h1{
