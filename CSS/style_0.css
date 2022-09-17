@@ -128,7 +128,7 @@
 }
 
 .banner-title h1{
-    font-size: 65px;
+    font-size: 75px;
     margin-bottom: 30px;
     user-select: none;
 }
@@ -180,7 +180,7 @@
     width: 80px;
     background: white;
     text-align: center;
-    padding-top: 25%;
+    padding-top: 15%;
     bottom: 0;
     position: absolute;
 }
@@ -277,3 +277,38 @@
     }
 }
 
+@media (max-width: 1350px){
+    .nav-link ul li{
+        padding:30px 15px;
+    }
+    .nav-link ul{
+        margin-left: 10px;
+    }
+    .nav-logo img{
+        width: 180px;
+        margin-top: 10px;
+    }
+    .nav-bar{
+        padding: 30px 140px;
+    }
+    .nav-link ul a{
+        font-size: 18px;
+    }
+    .dropbtn {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+}
+
+@media (max-height:850px ) {
+    .related-icon{
+        height: 30%;
+        padding-top: 7%;
+    }
+    .banner-title{
+        margin-top: 30px;
+    }
+    .banner-title h1{
+        font-size: 70px;
+    }
+}
