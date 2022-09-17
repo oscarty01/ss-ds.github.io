@@ -219,7 +219,7 @@
     display: none;
 }
 
-@media (max-width: 700px){
+@media (max-width: 700px){ 
     .vertical-bar{
         display: none;
     }
@@ -227,7 +227,7 @@
         margin: 80px 40px;
     }
     .banner-title h1{
-        font-size: 55px;
+        font-size: 45px; 
     }
     .credit {
         width: 100%;
@@ -235,6 +235,10 @@
     }
     .credit h1, .credit small{
         font-size: 3.3vw;
+    }
+    .nav-logo img{
+        width: 180px;
+        margin-top: 10px;
     }
     .nav-bar{
         padding: 10px 30px;
@@ -288,9 +292,6 @@
         width: 180px;
         margin-top: 10px;
     }
-    .nav-bar{
-        padding: 30px 140px;
-    }
     .nav-link ul a{
         font-size: 18px;
     }
@@ -306,9 +307,6 @@
         padding-top: 7%;
     }
     .banner-title{
-        margin-top: 30px;
-    }
-    .banner-title h1{
-        font-size: 70px;
+        margin-top: 10px;
     }
 }
