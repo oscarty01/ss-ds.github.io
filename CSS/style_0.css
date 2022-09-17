@@ -11,7 +11,7 @@
 
 .hero{
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../Media/Background.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)),url(../Media/Background.jpg);
     background-position: center;
     background-size: cover;
     overflow-x: hidden;
@@ -234,7 +234,7 @@
         bottom: 0;
     }
     .credit h1, .credit small{
-        font-size: 3.3vw;
+        font-size: 3.1vw;
     }
     .nav-logo img{
         width: 180px;
