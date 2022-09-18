@@ -7,3 +7,5 @@ function show_menu(){
 function close_menu(){
     show.style.right = "-200px";
 }
+
+console.log("Script loaded")

@@ -129,6 +129,7 @@ body{
 .banner-title{
     margin: 80px 150px;
     color: white;
+    position:absolute;
 }
 
 .btn{
