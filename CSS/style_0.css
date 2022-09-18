@@ -140,6 +140,7 @@ body{
     font-size: 15px;
     cursor: pointer;
     border-radius: 10px;
+    color: black;
 }
 
 .banner-title .btn:hover{
@@ -216,16 +217,16 @@ body{
     right: 0;
     bottom: 0;
     position: absolute;
-    background: white;
     align-items: center;
-    border: inset;
-    opacity: 30%;
 }
 
 .credit h1{
     padding: 10px 20px;
     font-weight: bold;
     font-size: 15px;
+    background: white;
+    border: inset;
+    opacity: 30%;
 }
 
 .credit small{
@@ -234,6 +235,22 @@ body{
 
 .nav-bar .fa-solid{
     display: none;
+}
+
+.browser_logos{
+    display: flex;
+    width: auto;
+    right: 0;
+    position:absolute;
+    align-items: center;
+    bottom: 6%;
+}
+
+.browser_logos img{
+    width: 50px;
+    padding: 0px 10px;
+    opacity: 0.3;
+    transition: opacity 0.4s ease;
 }
 
 @media (max-width: 700px){ 
@@ -252,6 +269,8 @@ body{
     }
     .credit h1, .credit small{
         font-size: 3.1vw;
+        margin: auto;
+        width: 100%;
     }
     .nav-logo img{
         width: 180px;
@@ -296,6 +315,14 @@ body{
     .banner-title button{
         font-size: 15px;
     }
+    .browser_logos{
+        width: 100%;
+        bottom: 9% !important;
+    }
+    .browser_logos img{
+        margin: auto;
+        width: 40px;
+    }
 }
 
 @media (max-width: 1350px){
@@ -315,6 +342,13 @@ body{
     .dropbtn {
         font-size: 15px;
         margin-top: 5px;
+    }
+    .browser_logos{
+        bottom: 7.5%;
+    }
+    .browser_logos img{
+        margin: auto;
+        width: 40px;
     }
 }
 
