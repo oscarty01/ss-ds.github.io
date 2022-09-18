@@ -250,7 +250,7 @@ body{
     width: 50px;
     padding: 0px 10px;
     opacity: 0.3;
-    transition: opacity 0.4s ease;
+    transition: opacity 1s ease;
 }
 
 @media (max-width: 700px){ 
@@ -268,9 +268,10 @@ body{
         bottom: 0;
     }
     .credit h1, .credit small{
-        font-size: 3.1vw;
+        font-size: 3vw;
         margin: auto;
         width: 100%;
+        text-align: center;
     }
     .nav-logo img{
         width: 180px;
