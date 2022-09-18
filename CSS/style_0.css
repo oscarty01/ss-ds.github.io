@@ -11,10 +11,12 @@
 
 .hero{
     height: 100vh;
+    max-height: -webkit-fill-available;
     background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)),url(../Media/Background.jpg);
     background-position: center;
     background-size: cover;
     overflow-x: hidden;
+    overflow-y: hidden;
     position: relative;
     user-select: none;
 }
