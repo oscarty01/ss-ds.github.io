@@ -10,6 +10,7 @@ function close_menu(){
 
 //Browser detection
 let userAgent = navigator.userAgent;
+console.log(userAgent)
 let browser;
 
 if(userAgent.match(/edg/i)){
@@ -27,7 +28,7 @@ if(userAgent.match(/edg/i)){
 }
 const browser_logos = document.querySelector(`.browser_logos .${browser}`);
 if(browser_logos){
-    browser_logos.style.opacity = "1";
+    browser_logos.style.opacity = ".9";
 }
 
 //finished loading
