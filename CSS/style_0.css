@@ -267,8 +267,11 @@ body{
         width: 100%;
         bottom: 0;
     }
+    .credit h1{
+        padding: 10px 0px;
+    }
     .credit h1, .credit small{
-        font-size: 3vw;
+        font-size: 3.2vw;
         margin: auto;
         width: 100%;
         text-align: center;
@@ -318,7 +321,7 @@ body{
     }
     .browser_logos{
         width: 100%;
-        bottom: 9% !important;
+        bottom: 8% !important;
     }
     .browser_logos img{
         margin: auto;
