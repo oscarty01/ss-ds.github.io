@@ -8,6 +8,7 @@ function close_menu(){
     show.style.right = "-200px";
 }
 
+//Browser detection
 let userAgent = navigator.userAgent;
 let browser;
 
@@ -22,11 +23,12 @@ if(userAgent.match(/edg/i)){
 }else if(userAgent.match(/safari/i)){
     browser = "safari";
 }else{
-    alert("Other browser");
+    window.alert("Other browser");
 }
-
 const browser_logos = document.querySelector(`.browser_logos .${browser}`);
-
 if(browser_logos){
     browser_logos.style.opacity = "1";
 }
+
+//finished loading
+console.log("Finished loading all script")
