@@ -19,7 +19,7 @@ if(userAgent.match(/edg/i)){
     browser = "firefox";
 }else if(userAgent.match(/opr\//i)){
     browser = "opera";
-}else if(userAgent.match(/chrome|chromium|crios/i)){
+}else if(userAgent.match(/chrome|chromium|CriOS/i)){
     browser = "chrome";
 }else if(userAgent.match(/safari/i)){
     browser = "safari";
