@@ -14,7 +14,7 @@ if(userAgent.match(/edg/i)){
 }else if(userAgent.match(/safari/i)){
     browser = "safari";
 }else{
-    window.alert("Other browser");
+    window.alert("Unidentified browser. Some function may not work as expected.");
 }
 const browser_logos = document.querySelector(`.browser_logos .${browser}`);
 if(browser_logos){
