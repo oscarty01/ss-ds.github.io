@@ -333,6 +333,9 @@ body{
 }
 
 @media (max-width: 1350px){
+    .nav-bar{
+        padding-right: 50px;
+    }
     .nav-link ul li{
         padding:30px 15px;
     }
@@ -351,7 +354,7 @@ body{
         margin-top: 5px;
     }
     .browser_logos{
-        bottom: 7.5%;
+        bottom: 6.5%;
     }
     .browser_logos img{
         margin: auto;
