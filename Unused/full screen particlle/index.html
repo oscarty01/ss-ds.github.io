@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Oscar Chan">
+    <title>Digital Sergeant - Backstage Crew</title>
+    <link rel="stylesheet" href="./CSS/style_0.css">
+    <script src="https://kit.fontawesome.com/ff099297a0.js" crossorigin="anonymous"></script>
+    <script src="./JavScript/particle/particles.js"></script>
+    <script src="./JavScript/particle/app.js"></script>
+    <script>
+        particlesJS.load('particles-js', './JavScript/particle/Config/Circle.json', function(){
+        console.log('particles.json loaded...');
+        });
+    </script>
+</head>
+<body>
+    <div class="hero" id="particles-js" class="particles-js">
+        <div class="wrapper">
+        <div class="nav-bar">
+            <div class="nav-logo">
+                <a href="./index.html"><img src="./Media/New DS Logo.png" alt="DS_Bg_Logo"></a>
+            </div>
+            <div class="nav-link" id="nav-link">
+                <i class="fa-solid fa-xmark" onclick="close_menu()"></i>
+                <ul>
+                    <a href=https://drive.google.com target="_blank"><li>Drive Storage</li></a>
+                    <a href="https://forms.gle/YMo2xusrh8fSdD5L7" target="_blank"><li>On Duty</li></a>
+                    <a href="https://forms.gle/vh1T1UBRYvj7s5i16" target="_blank"><li>Off Duty</li></a>
+                    <a href="https://forms.gle/UTSRky3kMinU1BY16" target="_blank"><li>Borrow device</li></a>
+                </ul>
+                <div class="dropdown">
+                    <button class="dropbtn">Assets</button>
+                    <div class="dropdown-content">
+                        <a href="./Media/DS SOP.pdf " target="_blank">SOP</a>
+                        <a href="./Media/SDMD HandbookV3.pdf" target="_blank">Handbook</a>
+                    </div>
+                </div>
+            </div>
+            <i class="fa-solid fa-list" onclick="show_menu()"></i>
+        </div>
+        </div>
+        <div class="banner-title">
+            <h1>What you don't see<br><span>backstage</span><br>is what really<br><span>controls the show.</span></h1>
+            <button type="button" class="btn"><a href="#"></a>Place Holder</button>
+        </div>
+        <div class="vertical-bar">
+            <div class="small-ds-icon">
+                <h1>我</h1>
+                <h1>地</h1>
+                <h1>敢</h1>
+                <h1>創</h1>
+                <h1>新</h1>
+            </div>
+            <div class="related-icon">
+                <a href="./index.html"><img src="./Media/small icon/black.png" alt="DS_Logo"></a>
+                <a href="https://www.hkbuas.edu.hk/" target="_blank"><img src="./Media/school.png" alt="HKBUAS"></a>
+            </div>
+        </div>
+        <div class="browser_logos">
+            <img src="./Media/Browser Logo/chrome.png" alt="Chrome" class="chrome">
+            <img src="./Media/Browser Logo/safari.png" alt="Safari" class="safari">
+            <img src="./Media/Browser Logo/firefox.png" alt="FireFox" class="firefox">
+            <img src="./Media/Browser Logo/edge.png" alt="Edge" class="edge">
+            <img src="./Media/Browser Logo/opera.png" alt="Opera" class="opera">
+        </div>
+        <div class="credit">
+            <p><h1>&#169; Assembled and maintained by <cite>Oscar Chan</cite> <small>(20-21 Head Of DS)</small></h1></p>
+        </div>
+    </div>
+    <script src="./JavScript/script.js"></script>
+    <script src="./JavScript/check_browser.js" async></script>
+</body>
+</html>
