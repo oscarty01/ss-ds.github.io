@@ -247,7 +247,7 @@ body{
     right: 0;
     position:absolute;
     align-items: center;
-    bottom: 6%;
+    bottom: 7%;
 }
 
 .browser_logos img{
@@ -355,7 +355,7 @@ body{
         margin-top: 5px;
     }
     .browser_logos{
-        bottom: 6.5%;
+        bottom: 7.5%;
     }
     .browser_logos img{
         margin: auto;
