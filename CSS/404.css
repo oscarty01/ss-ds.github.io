@@ -90,7 +90,7 @@ body{
     -webkit-text-fill-color: transparent;
 }
 .content p{
-    font-size: 1.2em;
+    font-size: 2em;
     color: #0d0d0d;
 }
 .content .btns{
@@ -114,19 +114,19 @@ body{
     color: #fff;
 }
 
-@media (max-width: 1000px){
+@media (max-width: 800px){
     .content h4{
-        font-size: 4vw;
+        font-size: 6vw;
     }
     .content p{
-        font-size: 3vw;
+        font-size: 5vw;
     }
     #error-page{
         height: fit-content;
-        padding: 10px;
+        padding: 20px;
         top: 20% !important;
-        left: 15%;
-        right: 15%;
+        left: 5%;
+        right: 5%;
         bottom: 20%;
     }
 }
