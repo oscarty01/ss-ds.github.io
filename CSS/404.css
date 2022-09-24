@@ -11,7 +11,9 @@ body{
     background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)),url(../Media/Background.jpg);
     background-position: center;
     background-size: cover;
+    max-height: -moz-available;
     max-height: -webkit-fill-available;
+    
 }
 #error-page{
     position: absolute;
@@ -120,7 +122,7 @@ body{
     #error-page{
         height: fit-content;
         padding: 10px;
-        top: 30% !important;
+        top: 20% !important;
         left: 15%;
         right: 15%;
         bottom: 20%;
