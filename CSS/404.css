@@ -11,6 +11,7 @@ body{
     background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)),url(../Media/Background.jpg);
     background-position: center;
     background-size: cover;
+    max-height: -webkit-fill-available;
 }
 #error-page{
     position: absolute;
@@ -107,4 +108,21 @@ body{
 .content .btns a:hover{
     background: #4f4f50;
     color: #fff;
+}
+
+@media (max-width: 1000px){
+    .content h4{
+        font-size: 4vw;
+    }
+    .content p{
+        font-size: 3vw;
+    }
+    #error-page{
+        height: fit-content;
+        padding: 10px;
+        top: 30% !important;
+        left: 15%;
+        right: 15%;
+        bottom: 20%;
+    }
 }
