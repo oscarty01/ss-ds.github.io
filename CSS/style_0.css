@@ -143,9 +143,39 @@ body{
     color: black;
 }
 
-.banner-title .btn:hover{
-    background-color: #ddd; 
-    transition: 0.3s;
+.banner-title .password input{
+    display: inline-block;
+    position: relative;
+    font-size: 30px;
+    box-sizing: border-box;
+    height: 3.5rem;
+    -webkit-appearance:none
+}
+
+.banner-title .password input[type="text"]{
+    background: white;
+    border: none;
+    outline: none;
+    padding: 0px 30px;
+    border-radius: 25px 0 0 25px;
+}
+
+.banner-title .password input[type="submit"]{
+    position: relative;
+    border-radius: 0 25px 25px 0;
+    width: 5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(236, 236, 67);
+    padding-right: 0.3rem;
+    color: black;
+    font-weight: bold;
+    left: -0.5rem;
+}
+
+.banner-title .password input[type="submit"]:hover{
+    background-color: rgb(253, 196, 73);
 }
 
 .banner-title h1{
@@ -156,11 +186,6 @@ body{
 .banner-title h1 span{
     color: yellow;
     text-shadow: 1px 1px 3px yellow;
-}
-
-.banner-title button{
-    font-size: 30px;
-    font-weight: normal;
 }
 
 .vertical-bar{
@@ -183,7 +208,6 @@ body{
     font-size: 30px;
     font-family: chinese;
     transition: 0.7s;
-    cursor: pointer;
 }
 
 .small-ds-icon h1:hover{
@@ -330,6 +354,20 @@ body{
     .browser_logos img{
         margin: auto;
         width: 40px;
+    }
+    .password{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner-title .password input{
+        width: 60vw;
+        text-align: center;
+        font-size: 5vw;
+        padding: 0;
+    }
+    .banner-title .password input[type="submit"]{
+        font-size:6vw!important;
     }
 }
 
