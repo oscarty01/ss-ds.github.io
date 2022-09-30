@@ -6,15 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Oscar Chan">
     <title>Digital Sergeant - Backstage Crew</title>
+    <link href="./Media/DS Logo black.ico" rel="shortcut icon">
     <link rel="stylesheet" href="./CSS/style_0.css">
     <script src="https://kit.fontawesome.com/ff099297a0.js" crossorigin="anonymous"></script>
-    <script src="./JavScript/particle/particles.js"></script>
-    <script src="./JavScript/particle/app.js"></script>
-    <script>
-        particlesJS.load('particles-js', './JavScript/particle/Config/Circle.json', function(){
-        console.log('particles.json loaded...');
-        });
-    </script>
+    <script src="./JavScript/check_identity.js"></script>
 </head>
 <body>
     <div class="hero" id="particles-js" class="particles-js">
@@ -43,9 +38,9 @@
         </div>
         <div class="banner-title">
             <h1>What you don't see<br><span>backstage</span><br>is what really<br><span>controls the show.</span></h1>
-            <form class="password" action="./404.html">
-                <input type="text" name="" placeholder="User Identification..." id="user_identification" autocomplete="off">
-                <input type="submit" name="" value="Go" onclick="check_identity()">
+            <form class="password" action="./404.html" onsubmit="return check_identity()">
+                <input type="text" name="" placeholder="User Identification..." id="user_identification" autocomplete="off" required onfocus="this.value=''">
+                <input type="submit" name="" value="Go">
             </form>
         </div>
         <div class="vertical-bar">
@@ -72,8 +67,15 @@
             <p><h1>&#169; Assembled and maintained by <cite>Oscar Chan</cite> <small>(20-21 Head Of DS)</small></h1></p>
         </div>
     </div>
-    <script src="./JavScript/check_identity.js"></script>
-    <script src="./JavScript/script.js"></script>
     <script src="./JavScript/check_browser.js" async></script>
+    <script src="./JavScript/particle/particles.js"></script>
+    <script src="./JavScript/particle/app.js"></script>
+    <script>
+        particlesJS.load('particles-js', './JavScript/particle/Config/Circle.json', function(){
+        console.log('particles.json loaded...');
+        });
+    </script>
+    <script src="./JavScript/script.js"></script>
+    <script async>console.log("finished loading all script")</script>
 </body>
 </html>

@@ -7,6 +7,3 @@ function show_menu(){
 function close_menu(){
     show.style.right = "-200px";
 }
-
-//finished loading
-console.log("Finished loading all script")
