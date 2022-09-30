@@ -1,5 +1,7 @@
-var pwd = "Ds"
-var link = "https://docs.google.com/document/d/1ukBMDM4f46yrtIGQd_oDZg5mYfK5gLFtKfk_CUoJ_kE/edit?usp=sharing"
+var a1 = "login"
+var a2 = "duty"
+var link_1 = "https://docs.google.com/document/d/1ukBMDM4f46yrtIGQd_oDZg5mYfK5gLFtKfk_CUoJ_kE/edit?usp=sharing"
+var link_2 = "https://drive.google.com/drive/folders/1-xjbtUKD68Jj74wjVOECSBfOjUbXaTj3?usp=sharing"
 
 function check_identity(){
     var user = document.getElementById("user_identification");
@@ -7,13 +9,17 @@ function check_identity(){
     //console.log(o_link)
     //console.log(pwd)
     //console.log(user.value)
-    if(user.value == pwd){
-        console.log("Correct pwd")
-        o_link.setAttribute("action",link)
+    if(user.value.toLowerCase() == a1){
+        console.log("a1")
+        o_link.setAttribute("action",link_1)
+    }
+    else if(user.value.toLowerCase() == a2){
+        console.log("a2")
+        o_link.setAttribute("action",link_2)
     }
     else{
-        window.alert("Please enter the correct credential")
-        console.log("Wrong pwd")
+        window.alert("Invalid Ident Code")
+        console.log("Invalid")
         return false
     }
 }
