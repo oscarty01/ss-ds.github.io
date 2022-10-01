@@ -28,7 +28,6 @@ body{
 .banner a{
     display: inline-flex;
     align-items: center;
-    width: 100%;
 }
 
 .banner i{
@@ -42,6 +41,10 @@ body{
     color: white;
     font-weight:normal;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner:hover i , .banner:hover .heading{
+    color: grey;
 }
 
 .post{
