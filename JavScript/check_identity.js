@@ -12,10 +12,12 @@ function check_identity(){
     if(user.value.toLowerCase() == a1){
         console.log("a1")
         o_link.setAttribute("action",link_1)
+        return true
     }
     else if(user.value.toLowerCase() == a2){
         console.log("a2")
         o_link.setAttribute("action",link_2)
+        return true
     }
     else{
         window.alert("Invalid Ident Code")
