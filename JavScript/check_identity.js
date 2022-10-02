@@ -9,12 +9,12 @@ function check_identity(){
     //console.log(o_link)
     //console.log(pwd)
     //console.log(user.value)
-    if(user.value.toLowerCase() == a1){
+    if(user.value.toLowerCase().trim() == a1){
         console.log("a1")
         o_link.setAttribute("action",link_1)
         return true
     }
-    else if(user.value.toLowerCase() == a2){
+    else if(user.value.toLowerCase().trim() == a2){
         console.log("a2")
         o_link.setAttribute("action",link_2)
         return true
