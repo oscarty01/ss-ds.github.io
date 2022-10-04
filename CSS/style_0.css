@@ -3,6 +3,11 @@
     font-family: chinese;
 }
 
+@font-face {
+    font-family: yellow_bold;
+    src: url(../Media/Font/../Font/Helvetica.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -183,11 +188,13 @@ body{
 .banner-title h1{
     font-size: 75px;
     margin-bottom: 30px;
+    font-family: yellow_bold;
 }
 
 .banner-title h1 span{
     color: yellow;
     text-shadow: 1px 1px 3px yellow;
+    font-family: yellow_bold;
 }
 
 .vertical-bar{
