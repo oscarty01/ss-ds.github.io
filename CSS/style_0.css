@@ -27,7 +27,7 @@ body{
 .hero{
     height: 100vh;
     max-height: -webkit-fill-available;
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)),url(../Media/Background.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)),url(../Media/Background/Background_1.jpg);
     background-position: center;
     background-size: cover;
     overflow-x: hidden;
@@ -218,17 +218,6 @@ body{
     font-size: 30px;
     font-family: chinese;
     transition: 0.7s;
-}
-
-.small-ds-icon h1:hover{
-    color: yellow;
-    text-shadow: 0 0 10px yellow,
-                0 0 20px yellow,
-                0 0 40px yellow
-                0 0 80px yellow
-                0 0 120px yellow
-                0 0 160px yellow
-    
 }
 
 .related-icon{

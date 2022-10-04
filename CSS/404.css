@@ -8,7 +8,7 @@
 body{
     height: 100vh;
     /**background: -webkit-repeating-linear-gradient(-45deg, #132f42, #0b1c27, #513152, #52302c, #46364d, #234257, #563064);**/
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)),url(../Media/Background.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)),url(../Media/Background/Background_1.jpg);
     background-position: center;
     background-size: cover;
     max-height: -moz-available;
