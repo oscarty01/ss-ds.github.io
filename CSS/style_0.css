@@ -163,7 +163,7 @@ body{
     outline: none;
     padding: 0px 30px;
     border-radius: 25px 0 0 25px;
-    -webkit-appearance:none
+    -webkit-appearance:none;
 }
 
 .banner-title .password input[type="submit"]{
@@ -178,7 +178,8 @@ body{
     color: black;
     font-weight: bold;
     left: -0.5rem;
-    -webkit-appearance:none
+    -webkit-appearance:none;
+    transition: .3s;
 }
 
 .banner-title .password input[type="submit"]:hover{
