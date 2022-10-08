@@ -1,3 +1,13 @@
+:root{
+    --r_main:white;
+    --r_sec:black; 
+    --r_accent:yellow;
+    --r_selected_w:hsl(0, 0%, 85%);
+    --r_selected_y:orange;
+    --r_grey:grey;
+}
+
+
 @font-face{
     src: url(../Media/Font/BpmfGenRyuMin-B.ttf);
     font-family: chinese;
@@ -61,7 +71,7 @@ body{
 }
 
 .nav-link ul a{
-    color: white;
+    color: var(--r_main);
     text-decoration: none;
     font-size: 20px;
 }
@@ -70,7 +80,7 @@ body{
     content: '';
     width: 0%;
     height: 3px;
-    background: rgb(255, 255, 213);
+    background: var(--r_selected_w);
     display: block;
     margin: auto;
     transition:  .5s;
@@ -83,8 +93,8 @@ body{
 
 /* Dropdown Button */
 .dropbtn {
-    background-color: white;
-    color: black;
+    background-color: var(--r_main);
+    color: var(--r_sec);
     padding: 16px;
     font-size: 17px;
     border: none;
@@ -102,7 +112,7 @@ body{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: white;
+    background-color: var(--r_main);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -112,17 +122,17 @@ body{
 }
   /* Links inside the dropdown */
 .dropdown-content a {
-    color: black;
+    color: var(--r_sec);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
   /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: var(--r_selected_w);}
   /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
   /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #ddd;}
+.dropdown:hover .dropbtn {background-color: var(--r_selected_w);}
 .nav-link .dropdown{
     float: right;
     padding: 15px;
@@ -133,19 +143,19 @@ body{
 
 .banner-title{
     margin: 80px 150px;
-    color: white;
+    color: var(--r_main);
     position:absolute;
 }
 
 .btn{
     padding: 10px 20px;
     border: 0;
-    background: white;
+    background: var(--r_main);
     font-weight: bold;
     font-size: 15px;
     cursor: pointer;
     border-radius: 10px;
-    color: black;
+    color: var(--r_sec);
 }
 
 .banner-title .password input{
@@ -158,7 +168,7 @@ body{
 }
 
 .banner-title .password input[type="text"]{
-    background: white;
+    background: var(--r_main);
     border: none;
     outline: none;
     padding: 0px 30px;
@@ -173,9 +183,9 @@ body{
     border: none;
     outline: none;
     cursor: pointer;
-    background-color: rgb(236, 236, 67);
+    background-color: var(--r_accent);
     padding-right: 0.3rem;
-    color: black;
+    color: var(--r_sec);
     font-weight: bold;
     left: -0.5rem;
     -webkit-appearance:none;
@@ -183,7 +193,7 @@ body{
 }
 
 .banner-title .password input[type="submit"]:hover{
-    background-color: rgb(253, 196, 73);
+    background-color: var(--r_selected_y);
 }
 
 .banner-title h1{
@@ -193,14 +203,14 @@ body{
 }
 
 .banner-title h1 span{
-    color: yellow;
-    text-shadow: 1px 1px 3px yellow;
+    color: var(--r_accent);
+    text-shadow: 1px 1px 3px var(--r_accent);
     font-family: yellow_bold;
 }
 
 .vertical-bar{
     height: 100%;
-    background: black;
+    background: var(--r_sec);
     top: 0;
     left: 0;
     position: absolute;
@@ -214,7 +224,7 @@ body{
 .small-ds-icon h1{
     margin: 43px 18px;
     display: block;
-    color: white;
+    color: var(--r_main);
     font-size: 30px;
     font-family: chinese;
     transition: 0.7s;
@@ -223,7 +233,7 @@ body{
 .related-icon{
     height: 21%;
     width: 80px;
-    background: white;
+    background: var(--r_main);
     text-align: center;
     padding-top: 15%;
     bottom: 0;
@@ -249,7 +259,7 @@ body{
     padding: 10px 20px;
     font-weight: bold;
     font-size: 15px;
-    background: white;
+    background: var(--r_main);
     border: inset;
     animation: fade 2s;
     animation-fill-mode: forwards;
@@ -317,7 +327,7 @@ body{
     }
     .nav-bar .fa-solid{
         display: block;
-        color: white;
+        color: var(--r_main);
         margin: 20px 25px;
         font-size: 40px;
         cursor: pointer;
@@ -325,7 +335,7 @@ body{
     .nav-link{
         height: 100vh;
         width: 200px;
-        background: black;
+        background: var(--r_sec);
         top: 0;
         right: -200px;
         position: absolute;
@@ -421,12 +431,12 @@ body{
 
 @keyframes breathing {
     0%{
-        text-shadow: 1px 1px 0px yellow;
+        text-shadow: 1px 1px 0px var(--r_accent);
     }
     50%{
-        text-shadow: 1px 1px 5px yellow;
+        text-shadow: 1px 1px 5px var(--r_accent);
     }
     100%{
-        text-shadow: 1px 1px 0px yellow;
+        text-shadow: 1px 1px 0px var(--r_accent);
     }
 }

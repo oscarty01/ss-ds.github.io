@@ -1,3 +1,12 @@
+:root{
+    --r_main:white;
+    --r_sec:black; 
+    --r_accent:yellow;
+    --r_selected_w:hsl(0, 0%, 85%);
+    --r_selected_y:red;
+    --r_grey:grey;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -32,7 +41,7 @@ body{
 }
 
 .banner i{
-    color: white;
+    color: var(--r_main);
     left: 0;
     transition: .3s;
 }
@@ -40,14 +49,14 @@ body{
 .heading{
     width: auto;
     margin: 10px;
-    color: white;
+    color: var(--r_main);
     font-weight:normal;
     font-family: Arial, Helvetica, sans-serif;
     transition: .3s;
 }
 
 .banner:hover i , .banner:hover .heading{
-    color: grey;
+    color: var(--r_grey);
 }
 
 .post{
@@ -65,7 +74,7 @@ body{
 }
 
 .main-video{
-    background-color: white;
+    background-color: var(--r_main);
     border-radius: 5px;
     padding: 10px;
 }
@@ -82,7 +91,7 @@ body{
 }
 
 .main-video .title{
-    color: black;
+    color: var(--r_sec);
     font-size: 25px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -97,16 +106,16 @@ body{
     align-items: center;
     margin-right: 0;
     margin-left: auto;
-    color: black;
+    color: var(--r_sec);
     font-size: 30px;
 }
 
 .main-video .video a:hover{
-    color: rgb(197, 0, 0);
+    color: var(--r_selected_y);
 }
 
 .video-list{
-    background: white;
+    background: var(--r_main);
     border-radius: 5px;
     height: 520px;
     overflow-y: scroll;
@@ -122,12 +131,12 @@ body{
 }
 
 .video-list::-webkit-scrollbar-track{
-    background: lightblue;
+    background: var(--r_grey);
     border-radius: 50px;
 }
 
 .video-list::-webkit-scrollbar-thumb{
-    background: darkolivegreen;
+    background: var(--r_selected_w);
     border-radius: 50px;
 }
 
@@ -144,7 +153,7 @@ body{
 }
 
 .video-list .vid:hover{
-    background-color: rgba(255, 255, 255, 0.87);
+    background-color: rgba(240, 240, 240, 0.87);
 }
 
 .video-list .vid.active{
@@ -152,11 +161,11 @@ body{
 }
 
 .video-list .vid.active .title{
-    color: red;
+    color: var(--r_selected_y);
 }
 
 .video-list .title{
-    color: rgb(128, 128, 128);
+    color: var(--r_grey);
     font-size: 20px;
 }
 
