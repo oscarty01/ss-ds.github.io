@@ -130,6 +130,12 @@ body{
     border-radius: 5px;
     height: 520px;
     overflow-y: scroll;
+    scrollbar-width: auto !important;
+    -ms-overflow-style: auto !important;
+}
+
+.video-list::-webkit-scrollbar{
+    display:unset !important;
 }
 
 .video-list .vid img{
