@@ -17,11 +17,22 @@
     text-decoration: none;
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
+
+html{
+    scrollbar-width: none;
+}
+
 body{
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Media/Background/Background_2.JPG);
     background-position: center;
     background-size: cover;
     height: 100vh;
+    overflow:scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
 }
 
 .banner{
