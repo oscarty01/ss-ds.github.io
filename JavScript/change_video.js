@@ -2,7 +2,6 @@ var listVideo = document.querySelectorAll('.video-list .vid');
 var mainVideo = document.querySelector('.main-video iframe');
 var title = document.querySelector('.main-video .title');
 
-
 console.log(listVideo)
 console.log(mainVideo)
 console.log(title)
