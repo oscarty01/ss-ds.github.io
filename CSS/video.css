@@ -23,6 +23,7 @@
 
 html{
     scrollbar-width: none;
+    overflow: hidden;
 }
 
 body{
