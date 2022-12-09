@@ -1,6 +1,6 @@
 var main_video_height = document.getElementById('main-video').clientHeight;
-var height = screen.height;
-var width = screen.width;
+var height = document.documentElement.clientHeight;
+var width = document.documentElement.clientWidth;
 console.log(main_video_height);
 console.log(height)
 console.log(width)
