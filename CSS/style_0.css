@@ -183,9 +183,9 @@ body{
     border: none;
     outline: none;
     cursor: pointer;
-    background-color: var(--r_accent);
+    background-color: #ffe81b;
     padding-right: 0.3rem;
-    color: var(--r_sec);
+    color: black;
     font-weight: bold;
     left: -0.5rem;
     -webkit-appearance:none;
@@ -193,7 +193,7 @@ body{
 }
 
 .banner-title .password input[type="submit"]:hover{
-    background-color: var(--r_selected_y);
+    background-color: #ffc21b;
 }
 
 .banner-title h1{

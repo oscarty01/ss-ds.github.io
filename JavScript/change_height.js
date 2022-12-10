@@ -10,7 +10,7 @@ console.log(width)
     console.log(document.getElementById("video-list").style)
 
 if(width <= 770){
-    var new_height = height - main_video_height - 170
+    var new_height = height - main_video_height - 160
     console.log(new_height)
     document.getElementById("video-list").style.height = new_height + "px";
     console.log(document.getElementById("video-list").style)
