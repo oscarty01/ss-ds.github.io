@@ -4,7 +4,7 @@
     --r_accent:yellow;
     --r_selected_w:hsl(0, 0%, 85%);
     --r_selected_y:rgb(34, 34, 34);
-    --r_grey:rgb(173, 173, 173);
+    --r_grey:rgb(126, 126, 126);
 }
 
 *{
@@ -48,9 +48,12 @@ body{
     align-items: center;
 }
 
-.banner i{
+.banner img{
     color: var(--r_main);
     left: 0;
+    height: 25px;
+    color: white;
+    padding-right: 5px;
 }
 
 .heading{

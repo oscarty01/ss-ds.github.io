@@ -204,7 +204,6 @@ body{
 
 .banner-title h1 span{
     color: var(--r_accent);
-    text-shadow: 1px 1px 3px var(--r_accent);
     font-family: yellow_bold;
 }
 
