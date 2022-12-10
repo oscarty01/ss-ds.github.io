@@ -203,8 +203,27 @@ body{
 }
 
 .banner-title h1 span{
-    color: var(--r_accent);
+    color: transparent;
     font-family: yellow_bold;
+    background-image: linear-gradient(yellow,yellow);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+}
+
+.span_1{
+    animation: backcolor 1s linear forwards;
+    background-position: -410px 0;
+}
+
+.span_2{
+    animation: backcolor 1s linear forwards;
+    background-position: -750px 0;
+}
+
+@keyframes backcolor {
+    100%{
+        background-position: 0 0;
+    }
 }
 
 .vertical-bar{
